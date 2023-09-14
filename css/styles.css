@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", san-serif;
+}
+
+body {
+    background-color: #ffe863;
+    text-align: center;
+}
+
+button {
+    background-color: #47297b;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #ffd93d;
+    margin: 20px 0 10px 0;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+button a {
+    text-decoration: none;
+    padding: 0;
+}
+
+button:hover {
+    background-color: #ffd93d;
+    color: #47297b;
+}
+
+.link-list {
+    display: list-item;
+    list-style: none;
+    display: block;
+    padding: 0 20px;
+    margin: 30px auto;
+}
+
+.container {
+    height: 100%;
+}
+
+.title {
+    font-family: "Libre Baskerville";
+    font-weight: 700;
+    font-size: 50px;
+    color: #47297b;
+    margin: 50px auto;
+}
+
+.burritos, 
+.parm,
+.salad {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+a {
+    display: inline-block;
+    color: #ffd93d;
+    text-decoration: none;
+    width: 100%;
+    font-size: 25px;
+    margin: 10px auto;
+    background-color: #47297b;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a:hover {
+    color: #47297b;
+    background-color: #ffd93d;
+}
+
+.burritos {
+    background-image: url("/images/black-burrito-img.png");
+}
+
+.parm {
+    background-image: url("/images/chic-parm-img.jpg");
+}
+
+.salad {
+    background-image: url("/images/taco-salad-img.jpg");
+}
+
+img {
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+p {
+    color: #47297b;
+    width: 50%;
+    margin: 30px auto;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h2 {
+    color: #47297b;
+    font-size: 24px;
+    font-family: "Libre Baskerville";
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.ul-container,
+.ol-container {
+    width: 40%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.5rem;
+    color: #47297b;
+    background-color: #ffd93d;
+    border-radius: 10px;
+    padding: 45px;
+}
+
+.ul-container {
+    margin-bottom: 2%;
+}
+
+.ol-container {
+    margin-bottom: 10%;
+}
+
+.ing-list {
+    list-style-image: url(/images/lettuce.png);
+}
+
+.burr-ing-list {
+    list-style-image: url(/images/Black-Bean.png);
+}
+
+.chic-ing-list {
+    list-style-image: url(/images/chicken.png);
+}
+
+.num-list {
+    list-style-type: none;
+    counter-increment: item;
+    text-indent: -2em;
+}
+
+.num-list::before {
+    font-weight: 700;
+    padding-right: 1.5rem;
+    text-align: right;
+    width: 1.5em;
+    content: counter(item);
+}
