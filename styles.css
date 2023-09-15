@@ -81,15 +81,15 @@ a:hover {
 }
 
 .burritos {
-    background-image: url("/images/black-burrito-img.png");
+    background-image: url(images/black-burrito-img.png);
 }
 
 .parm {
-    background-image: url("/images/chic-parm-img.jpg");
+    background-image: url(images/chic-parm-img.jpg);
 }
 
 .salad {
-    background-image: url("/images/taco-salad-img.jpg");
+    background-image: url(images/taco-salad-img.jpg);
 }
 
 img {
@@ -136,15 +136,15 @@ h2 {
 }
 
 .ing-list {
-    list-style-image: url(/images/lettuce.png);
+    list-style-image: url(images/lettuce.png);
 }
 
 .burr-ing-list {
-    list-style-image: url(/images/Black-Bean.png);
+    list-style-image: url(images/Black-Bean.png);
 }
 
 .chic-ing-list {
-    list-style-image: url(/images/chicken.png);
+    list-style-image: url(images/chicken.png);
 }
 
 .num-list {
